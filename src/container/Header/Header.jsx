@@ -6,7 +6,7 @@ import "./Header.css";
 
 const Header = () => (
   <div className="app__header app__wrapper section__padding" id="home">
-    <div className="app__warpper_info">
+    <div className="app__warpper_info" style={{ flex: "1" }}>
       <SubHeading title="Chase the new flavor" />
       <h1 className="app__header-h1">Key to fine dinning</h1>
       <p className="p__opensans" style={{ margin: "2rem 0" }}>
